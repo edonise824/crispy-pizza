@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.eo-background {
+    background-image: url("piceria/imazhet/pizza/backgroundi.jpg"); 
+    background-size:100%; 
+    background-position: top center;
+    height: 100vh; 
+    color:white; 
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+
+
+ /* Stilet për hover efektin */
+ .navbar-nav .nav-link:hover {
+  font-family: "Roboto", serif;
+  color: white; 
+  background-color:pink;
+  border-radius: 5px; 
+  text-decoration: underline;
+  
+}
+
+.eo-welcome-container{
+  font-family: "Roboto", serif;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+/*pjesa e pijeve*/
+.menu-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: "Roboto", serif;
+  text-align: center;
+  color: #007bff;
+}
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item-name {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+
+.menu-item-price {
+  font-size: 18px;
+}
+
+
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-item-name {
+    font-size: 16px;
+  }
+
+  .menu-item-price {
+    font-size: 16px;
+  }
+}
+footer {
+  font-family: "Roboto", serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 10;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+/* Stilimi i lidhjeve në footer */
+.footer-links a {
+  font-family: "Roboto", serif;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Ndryshimi i ngjyrës kur kaloni miun mbi lidhjet */
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.carousel-item img {
+    max-width: 50%;  
+    width: 40%;      
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+  }
+
+/*pjesa e kontaktit*/
+.container {
+    max-width: 800px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  form .form-control {
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  button[type="submit"] {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff4b40; 
+  }
+  /*pjesa e hartes*/
+  .map-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+
+  .info-text {
+    font-family: "Roboto", serif;
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-text h3 {
+    font-family: "Roboto", serif;
+    color: #ff6f61;
+  }
+  /*stilizimi i tabeles*/
+    .table th, .table td {
+      text-align: center;
+      font-family: "Roboto", serif;
+    }
+  
+  .table {
+      margin-top: 50px;
+  }
+  .table-bordered th, .table-bordered td {
+      border: 1px solid white;
+  }
+  
+  /* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .menu-item {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .menu-item-name, .menu-item-price {
+      font-size: 17px;
+  }
+
+  footer {
+      padding: 20px;
+  }
+
+  .carousel-item img {
+      width: 60%;
+  }
+
+  .container {
+      padding: 20px;
+  }
+
+  .card {
+      padding: 20px;
+  }
+
+  button[type="submit"] {
+      padding: 20px;
+  }
+
+  .map-container iframe {
+      height: 350px;
+  }
+
+  .table th, .table td {
+      font-size: 16px;
+  }
+}
+/* Desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .menu-item {
+      flex-direction: row;
+  }
+
+  .menu-item-name, .menu-item-price {
+      font-size: 18px;
+  }
+
+  footer {
+      padding: 30px;
+  }
+
+  .carousel-item img {
+      width: 50%;
+  }
+
+  .container {
+      padding: 30px;
+  }
+
+  .card {
+      padding: 30px;
+  }
+
+  button[type="submit"] {
+      padding: 20px;
+  }
+
+  .map-container iframe {
+      height: 400px;
+  }
+
+  .table th, .table td {
+      font-size: 18px;
+  }
+}
+  /*pjesa e formularit-stilizmi*/
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.alert {
+    display: none;
+}
+/*stilizimi i historise*/
+.section-title {
+  font-family: "Roboto", serif;
+  font-size: 28px;
+  color: brown;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Stili për tekstet */
+.section-text {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+/* Stili për elementët e theksuar në tekst */
+.section-text strong {
+  font-family: "Roboto", serif;
+  color: #f4a261;
+}
+
+
+

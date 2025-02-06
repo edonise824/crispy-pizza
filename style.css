@@ -26,30 +26,18 @@
   font-family: "Roboto", serif;
   display: flex;                 
   justify-content: center;      
-  align-items: center;   
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 20px;
-    border-radius: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
 }
-@media (max-width: 767px) {
-  .eo-welcome-container {
-      height: auto;   /* Përshtatni lartësinë në varësi të përmbajtjes */
-      padding: 20px 15px;  /* Reduktoni padding-un për ekranet më të vogla */
-      margin: 0;  /* Heqim marginat e mundshme që mund të krijojnë hapsira të panevojshme */
-  }
 
-  /* Përshtatni madhësinë e fontit për mobile */
-  .eo-welcome-container h1 {
-      font-size: 24px;
-      margin-bottom: 10px; /* Ulni marginën poshtë titullit */
-  }
-
-  .eo-welcome-container p {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-top: 0;  /* Heqim çdo margin që mund të ketë krijuar distancë të panevojshme */
+@media (max-width: 768px) {
+  .welcome-container {
+      margin-top: 0;
+      padding-top: 0;
+      box-sizing: border-box;
   }
 }
 /*pjesa e pijeve*/

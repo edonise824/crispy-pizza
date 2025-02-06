@@ -37,7 +37,12 @@
 @media (max-width: 480px) {
   header {
       margin-bottom: 10px;  /* Ulni marginën poshtë header-it në telefon */
-  }}
+  }
+  .eo-menuu{
+    margin-top:-20px;
+  }
+}
+
 /*pjesa e pijeve*/
 
 .menu-container {

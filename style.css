@@ -324,6 +324,7 @@ footer {
   align-items: center;
   height: 100vh;
   margin-top: 0;
+  flex-direction: column;
 }
 .contact-title {
   text-align:start;

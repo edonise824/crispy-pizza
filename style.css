@@ -158,6 +158,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .map-container iframe {
@@ -225,6 +227,7 @@ footer {
 
   .map-container iframe {
       height: 350px;
+
   }
 
   .table th, .table td {

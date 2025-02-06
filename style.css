@@ -326,7 +326,7 @@ footer {
   margin-top: 0;
 }
 .contact-title {
-  text-align: center;
+  text-align:start;
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: bold;

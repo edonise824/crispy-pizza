@@ -35,9 +35,9 @@
     padding: 20px;
     border-radius: 10px;
 }
-@media (max-width: 480px) {
+@media (max-width: 400px) {
  .eo-welcome-container{
-  margin-top: -30px;
+  margin-top: auto;
  }
   .eo-menuu{
     margin-top:-20px;

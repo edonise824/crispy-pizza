@@ -36,7 +36,20 @@
 }
 /*pjesa e pijeve*/
 
+.menu-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+h2 {
+  font-family: "Roboto", serif;
+  text-align: center;
+  color: #007bff;
+}
 /* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
 .menu-item {

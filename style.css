@@ -35,10 +35,23 @@
 }
 @media (max-width: 767px) {
   .eo-welcome-container {
-      padding: 15px;  /* Reduktoni padding-in për ekranet më të vogla */
-      height: auto;   /* Lejoni që hapesira vertikale të përshtatet për përmbajtjen */
-  }}
+      height: auto;   /* Përshtatni lartësinë në varësi të përmbajtjes */
+      padding: 20px 15px;  /* Reduktoni padding-un për ekranet më të vogla */
+      margin: 0;  /* Heqim marginat e mundshme që mund të krijojnë hapsira të panevojshme */
+  }
 
+  /* Përshtatni madhësinë e fontit për mobile */
+  .eo-welcome-container h1 {
+      font-size: 24px;
+      margin-bottom: 10px; /* Ulni marginën poshtë titullit */
+  }
+
+  .eo-welcome-container p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-top: 0;  /* Heqim çdo margin që mund të ketë krijuar distancë të panevojshme */
+  }
+}
 /*pjesa e pijeve*/
 
 .menu-container {

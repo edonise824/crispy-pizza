@@ -24,25 +24,20 @@
 
 .eo-welcome-container{
   font-family: "Roboto", serif;
-    position: relative;
-    margin: auto;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%); 
+  display: flex;                 
+  justify-content: center;      
+  align-items: center;   
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
 }
-@media (max-width: 400px) {
- .eo-welcome-container{
-  margin-top: auto;
- }
-  .eo-menuu{
-    margin-top:-20px;
-  }
-}
+@media (max-width: 767px) {
+  .eo-welcome-container {
+      padding: 15px;  /* Reduktoni padding-in për ekranet më të vogla */
+      height: auto;   /* Lejoni që hapesira vertikale të përshtatet për përmbajtjen */
+  }}
 
 /*pjesa e pijeve*/
 

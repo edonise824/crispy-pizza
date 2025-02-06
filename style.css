@@ -318,6 +318,9 @@ footer {
   justify-content: center;
   align-items: center;
  }
+ .form-group{
+  display:flex;
+ }
 
 
 
